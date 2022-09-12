@@ -13,7 +13,7 @@
   "Print to console": { &larr; the object identifier\
     "prefix": "csl",    &larr; the prefix to use it in vsc\
     "body": [           &larr; body element which gets writtenin vsc\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"console.log(`'${1:desc}',${2:val}`);"\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"console.log(`'${1}',${2}`);"\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],\
     "description": "Logs something to the console" &larr; the description for the preview\
 &nbsp;&nbsp;&nbsp;}\
