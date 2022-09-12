@@ -10,13 +10,13 @@
  3. remove the uncommitted lines in the { } and place a code like this example:
 
 > {
-  "Print to console": { &larr; the object identifier&nbsp;
-    "prefix": "csl",    &larr; the prefix to use it in vsc&nbsp;
-    "body": [           &larr; body element which gets written&nbsp;in vsc
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"console.log(`'${1:desc}',${2:val}`);"&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
-    "description": "Logs something to the console" &larr; the description for the preview&nbsp;
-&nbsp;&nbsp;&nbsp;}&nbsp;
+  "Print to console": { &larr; the object identifier\
+    "prefix": "csl",    &larr; the prefix to use it in vsc\
+    "body": [           &larr; body element which gets writtenin vsc\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"console.log(`'${1:desc}',${2:val}`);"\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],\
+    "description": "Logs something to the console" &larr; the description for the preview\
+&nbsp;&nbsp;&nbsp;}\
 }
 
 the $ sign with the number afterwards defines the stepps which could be toggled with the tab key
