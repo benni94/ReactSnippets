@@ -19,6 +19,44 @@
 			"};",
 			"",
 		],
+		"description": "React Functional Component with interface and imports"
+	},
+	"React Functional Component Default": {
+		"prefix": "fcd",
+		"body": [
+			"export const ${1:name}: React.FC<${2}> = (props) => {",
+			"const { $3 } = props;",
+			"$4",
+			"  return (",
+			"    <div>",
+			"             ",
+			"    </div>",
+			"  )",
+			"};",
+			"",
+		],
+		"description": "React Functional Component default without interface and imports"
+	},
+	"React Functional Component Memo": {
+		"prefix": "fcm",
+		"body": [
+			"import React from 'react';",
+			"",
+			"interface I${1:name}Props {",
+			"",
+			"}",
+			"",
+			"export const ${1:name}: React.FC<I${1:name}Props> = (props) => memo({",
+			"const { $2 } = props;",
+			"$3",
+			"  return (",
+			"    <div>",
+			"             ",
+			"    </div>",
+			"  )",
+			"});",
+			"",
+		],
 		"description": "React Functional Component"
 	},
 }
